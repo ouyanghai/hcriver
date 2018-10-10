@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3bdb2ba7d01b3c52767cbbb31716eaf",
+    "content-hash": "b63e49393d9b68170c66f1d33fce252c",
     "packages": [
         {
             "name": "caouecs/laravel-lang",
@@ -1275,6 +1275,42 @@
             "time": "2018-07-15T17:25:16+00:00"
         },
         {
+            "name": "ouyang/fulltext-for-laravel-migrate",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ouyanghai/fulltext_package.git",
+                "reference": "2afc39b9f7d8f1dd3dd7e43b49b3c9e22d8f9054"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ouyanghai/fulltext_package/zipball/2afc39b9f7d8f1dd3dd7e43b49b3c9e22d8f9054",
+                "reference": "2afc39b9f7d8f1dd3dd7e43b49b3c9e22d8f9054",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ouyang\\Concurrency\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "ouyang",
+                    "email": "1114374850@qq.com"
+                }
+            ],
+            "description": "fulltext for lava migrate",
+            "time": "2018-09-18 08:06:20"
+        },
+        {
             "name": "overtrue/laravel-lang",
             "version": "3.0.13",
             "source": {
@@ -1767,6 +1803,73 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "spatie/laravel-permission",
+            "version": "2.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-permission.git",
+                "reference": "cf4f3afb093a524bbdfb32f02a644a37694ff4c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/cf4f3afb093a524bbdfb32f02a644a37694ff4c6",
+                "reference": "cf4f3afb093a524bbdfb32f02a644a37694ff4c6",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "laravel/framework": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.4.2|~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^5.7|6.2|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Permission\\PermissionServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Permission\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Permission handling for Laravel 5.4 and up",
+            "homepage": "https://github.com/spatie/laravel-permission",
+            "keywords": [
+                "acl",
+                "laravel",
+                "permission",
+                "security",
+                "spatie"
+            ],
+            "time": "2018-09-10T19:52:52+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4677,6 +4780,69 @@
             "time": "2016-10-03T07:35:21+00:00"
         },
         {
+            "name": "summerblue/generator",
+            "version": "0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/summerblue/generator.git",
+                "reference": "8f1ddaf48bb7c2e328dec618c84f49ecbdb0ba29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/summerblue/generator/zipball/8f1ddaf48bb7c2e328dec618c84f49ecbdb0ba29",
+                "reference": "8f1ddaf48bb7c2e328dec618c84f49ecbdb0ba29",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "laravel/laravel": "5.5.*",
+                "phpunit/phpunit": "~5.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Summerblue\\Generator\\GeneratorsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Summerblue\\Generator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fernando Brito",
+                    "email": "fernandobritofl@gmail.com"
+                },
+                {
+                    "name": "Summer",
+                    "email": "summer@yousails.com"
+                }
+            ],
+            "description": "Extend Laravel 5.5's generators scaffold.",
+            "keywords": [
+                "generators",
+                "laravel",
+                "laravel5",
+                "scaffold"
+            ],
+            "time": "2017-11-09T06:53:14+00:00"
+        },
+        {
             "name": "symfony/thanks",
             "version": "v1.1.0",
             "source": {
@@ -4830,7 +4996,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ouyang/fulltext-for-laravel-migrate": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

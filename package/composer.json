@@ -1,0 +1,12 @@
+{
+    "name": "ouyang/fenbiao-for-laravel-migrate",
+    "description": "fenbiao for laravel migrate",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ouyanghai",
+            "email": "1114374850@qq.com"
+        }
+    ],
+    "require": {}
+}
